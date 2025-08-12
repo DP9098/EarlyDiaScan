@@ -15,9 +15,9 @@ To detect early-stage diabetes risk using user inputs like symptoms and demograp
   Saves predictions into a SQLite (or similar) database.  
   Users can view, manage, and delete old reports from the dashboard.
 ## 5. Authentication System:
-  Uses Flask-Login to protect the dashboard and features.  
-  Shows "Sign In" or "Logout" based on login status.  
-  Blocks feature use unless logged in (with popups like: “Please log in to use this feature”).
+Uses Flask-Login to protect the dashboard and features.  
+Shows "Sign In" or "Logout" based on login status.  
+Blocks feature use unless logged in (with popups like: “Please log in to use this feature”).
 
 # Machine Learning Part:
   Model Used: XGBoostClassifier  
